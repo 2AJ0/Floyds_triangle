@@ -1,6 +1,6 @@
 # Floyd's Triangle — Multi-Language Implementation
 
-A clean, consistent implementation of **Floyd's Triangle** in four languages: **C, C++, Java, and Python**. All four versions use the exact same underlying algorithm, so you can compare syntax across languages side by side.
+A clean, consistent implementation of **Floyd's Triangle** in five languages: **C, C++, Java, Python, and JavaScript**. All five versions use the exact same underlying algorithm, so you can compare syntax across languages side by side.
 
 ## 📐 Algorithm
 
@@ -24,6 +24,7 @@ This gives an **O(n²) time, O(1) extra space** solution (excluding output) — 
 ├── floyds_triangle.cpp    # C++ implementation
 ├── FloydsTriangle.java    # Java implementation
 ├── floyds_triangle.py     # Python implementation
+├── floyds_triangle.js     # JavaScript implementation
 └── README.md
 ```
 
@@ -50,6 +51,11 @@ java FloydsTriangle
 ### Python
 ```bash
 python3 floyds_triangle.py
+```
+
+### JavaScript (Node.js)
+```bash
+node floyds_triangle.js
 ```
 
 Each program will prompt:
@@ -82,6 +88,7 @@ Enter number of rows:
 - **C++**: g++ (C++11 or later)
 - **Java**: JDK 8+
 - **Python**: Python 3.6+
+- **JavaScript**: Node.js 12+
 
 ## 📄 License
 
